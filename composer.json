@@ -1,0 +1,26 @@
+{
+    "name": "dofus-odyssey/dofusdb-php-wrapper",
+    "description": "A PHP wrapper for the DofusDb API, providing an easy and efficient way to access and interact with Dofus game data in PHP applications. It simplifies API calls and data handling for developers working on Dofus-related projects.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DofusOdyssey\\DofusdbPhpWrapper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dylvn",
+            "email": "dylvn-dev@pm.me"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^7.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.8",
+        "phpstan/phpstan": "^1.10",
+        "friendsofphp/php-cs-fixer": "^3.41",
+        "phpunit/phpunit": "^10.5"
+    }
+}
